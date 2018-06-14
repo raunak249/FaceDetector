@@ -1,7 +1,4 @@
 
-# coding: utf-8
-
-# In[ ]:
 
 
 import imutils
@@ -17,7 +14,7 @@ from imutils.video import VideoStream
 
 prototxt = 'deploy.prototxt.txt'
 model = 'res10_300x300_ssd_iter_140000.caffemodel'
-confidence_min = 0.2
+confidence_min = 0.5
 
 
 # In[ ]:
